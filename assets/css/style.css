@@ -33,6 +33,10 @@ header > h3{
     text-transform: capitalize;
 }
 
+span{
+    color: red;
+}
+
 /* navigation  */
 
 a{
@@ -43,8 +47,10 @@ a{
 }
 
 a:hover{
-    border: 3px solid #fff;
+    border: 3px solid rgb(255, 0, 0);
     border-radius: 6px;
+    box-shadow: 6px 6px 6px red;
+    transition: 0.2s;
 }
 
 ul > li{
@@ -53,7 +59,7 @@ ul > li{
     font-size: xx-large;
     font-weight: bold;
     margin-left: 14%;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
 }
 
 nav{
@@ -61,6 +67,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
+    height: 60px;
 }
 
 /* introduction */
@@ -76,6 +83,11 @@ nav{
     margin: 0 auto;
     margin-top: 3%;
     line-height: 130%;
+}
+
+#introduction h2{
+    text-transform: uppercase;
+    color: red;
 }
 
 /* gym-goals section */
@@ -102,17 +114,27 @@ div{
     border-radius: 10px;
 }
 
+div:hover{
+    box-shadow: 10px 10px 10px  #1f1f1f;
+    transition: 0.5s;
+    zoom: 103%;
+    border: 4px solid red;
+}
+
 .strength-header{
     float: left;
+    margin-left: 1vw;
 }
 
 .hypertrophy-header{
     float: right;
     margin-bottom: 30px;
     margin-top: 30px;
+    margin-right: 1vw;
 }
 
 .hybrid-header{
     clear: both;
+    margin-left: 1vw;
     
 }
