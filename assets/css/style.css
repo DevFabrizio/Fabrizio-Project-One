@@ -7,13 +7,13 @@
 /* header section */
 
 header{
-    background-color: blue;
     position: relative;
+    background-color: #262626;
+
 }
 
 header  img{
-    width: 100vw;
-    /* height: 100vh; */
+    width: 100%;
     background-size: contain;
 }
 
@@ -22,6 +22,7 @@ header > h1, h3{
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #fff;
 }
 
 h1{
@@ -38,7 +39,13 @@ h3{
 a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+a:hover{
+    border: 3px solid #fff;
+    border-radius: 6px;
 }
 
 ul > li{
@@ -47,11 +54,27 @@ ul > li{
     font-size: xx-large;
     font-weight: bold;
     margin-left: 14%;
+    padding-top: 0.5rem;
 }
 
 nav{
-    background-color: #f77f00;
+    background-color: #0b0b0b;
     position: fixed;
     top: 0;
     width: 100vw;
+}
+
+/* introduction */
+
+#introduction{
+    background: linear-gradient(#262626, #eee);
+    text-align: center;
+    
+}
+
+#introduction p{
+    width: 30vw;
+    margin: 0 auto;
+    margin-top: 3%;
+    line-height: 130%;
 }
