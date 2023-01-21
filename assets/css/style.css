@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* header section */
@@ -17,7 +16,7 @@ header  img{
     background-size: contain;
 }
 
-header > h1, h3{
+.peak-header{
     position: absolute;
     top: 20%;
     left: 50%;
@@ -25,11 +24,11 @@ header > h1, h3{
     color: #fff;
 }
 
-h1{
+header > h1{
     text-transform: uppercase;
 }
 
-h3{
+header > h3{
     margin-top: 40px;
     text-transform: capitalize;
 }
@@ -77,4 +76,43 @@ nav{
     margin: 0 auto;
     margin-top: 3%;
     line-height: 130%;
+}
+
+/* gym-goals section */
+
+#gym-goals{
+    width: 100%;
+    height: 70%;
+}
+
+div > h3{
+    color: #fff;
+    margin: 3%;
+    text-transform: uppercase;
+}
+
+div{
+    width: 50%;
+    margin-top: 8vh;
+    text-align: center;
+    background-color: #262626;
+    color: #fff;
+    padding: 1%;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.strength-header{
+    float: left;
+}
+
+.hypertrophy-header{
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.hybrid-header{
+    clear: both;
+    
 }
