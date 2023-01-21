@@ -12,7 +12,8 @@ header{
 }
 
 header  img{
-    width: 100%;
+    width: 100vw;
+    /* height: 100vh; */
     background-size: contain;
 }
 
@@ -30,4 +31,27 @@ h1{
 h3{
     margin-top: 40px;
     text-transform: capitalize;
+}
+
+/* navigation  */
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+ul > li{
+    float: left;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-left: 14%;
+}
+
+nav{
+    background-color: #f77f00;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
