@@ -178,6 +178,18 @@ footer > a{
 
 /* introduction section */
 
+
+
 #nutrition-intro{
-    
+    text-align: center;
+    position: absolute;
+    top: 78vh;
+    left: 34vw; 
+    width: 30vw;
+    margin: 0 auto;
+    padding: 2%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 5px solid #141414;
+    border-radius: 15px;
 }
