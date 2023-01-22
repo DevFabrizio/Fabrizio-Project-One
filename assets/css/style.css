@@ -155,5 +155,21 @@ div:hover{
     clear: both;
     margin-left: 1vw;
     margin-right: 0;
-    
+}
+
+/* footer */
+
+footer{
+    background: linear-gradient(#fff, #262626);
+    height: 30vh;
+    text-align: center;
+    line-height: 29vh;
+
+}
+
+footer > a{
+    color: #1f1f1f;
+    font-size: xx-large;
+    margin: 20px;
+
 }
