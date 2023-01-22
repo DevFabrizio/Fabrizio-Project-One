@@ -176,9 +176,23 @@ footer > a{
 
 /* nutrition page */
 
+/* header */
+
+.nutrition-h1, .nutrition-h3{
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.nutrition-h1 > span{
+    color: rgb(0, 0, 0);
+}
+
+
+
 /* introduction section */
-
-
 
 #nutrition-intro{
     text-align: center;
@@ -193,3 +207,20 @@ footer > a{
     border: 5px solid #141414;
     border-radius: 15px;
 }
+
+#nutrition-intro > h3{
+    text-transform: uppercase;
+    padding-bottom: 2vw;
+}
+
+/* food pyramid section */
+
+.pyramid-list{
+    width: 45vw;
+    height: 50vh;
+}
+
+.pyramid-list > p{
+    margin-top: 8vh;
+}
+
