@@ -198,7 +198,7 @@ footer > a{
     text-align: center;
     position: absolute;
     top: 78vh;
-    left: 34vw; 
+    left: 32vw; 
     width: 30vw;
     margin: 0 auto;
     padding: 2%;
@@ -217,10 +217,30 @@ footer > a{
 
 .pyramid-list{
     width: 45vw;
-    height: 50vh;
+    height: 70vh;
+    position: relative;
 }
 
 .pyramid-list > p{
     margin-top: 8vh;
+}
+
+.pyramid-items{
+    font-size: medium;
+    margin-bottom: 1vh;
+}
+
+.pyramid-list > h4{
+    margin-top: 2vh;
+    font-size: x-large;
+}
+
+.pyramid-ul{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 17vw;
+    bottom: 4vh;
+    
 }
 
