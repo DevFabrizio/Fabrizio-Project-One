@@ -49,7 +49,7 @@ a{
 a:hover{
     border: 3px solid rgb(255, 0, 0);
     border-radius: 6px;
-    box-shadow: 6px 6px 6px red;
+    box-shadow: 4px 4px 4px red;
     transition: 0.2s;
 }
 
@@ -120,7 +120,7 @@ div{
 div:hover{
     box-shadow: 10px 10px 10px  #1f1f1f;
     transition: 0.5s;
-    zoom: 103%;
+    zoom: 101%;
     border: 4px solid red;
 }
 
@@ -269,3 +269,52 @@ footer > a{
     border-radius: 12px;
 }
 
+/* form.html page */
+
+/* form section */
+
+.goals-form{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 3%;
+    border: 3px solid red;
+    border-radius: 12px;
+}
+
+.goals-form > input[type="submit"]{
+    padding: 3%;
+    margin-top: 6%;
+}
+
+.goals-form > h3{
+    padding: 5%;
+}
+
+.info-form{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    background-color: #fff;
+    opacity: 0.5;
+    padding: 3%;
+    border: 3px solid red;
+    border-radius: 12px; 
+}
+
+.info-form > input[type="submit"]{
+    padding: 3%;
+    margin-top: 6%;
+}
+
+.info-form > input{
+    margin: 1.3vh 1vh;
+}
+
+form:hover{
+    background-color: #fff;
+    opacity: 1;
+    zoom: 102%;
+}
