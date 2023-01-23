@@ -215,7 +215,7 @@ footer > a{
 #nutrition-intro{
     text-align: center;
     position: absolute;
-    top: 78vh;
+    top: 35vw;
     left: 32vw; 
     width: 30vw;
     margin: 0 auto;
@@ -229,6 +229,11 @@ footer > a{
 #nutrition-intro > h3{
     text-transform: uppercase;
     padding-bottom: 2vw;
+    font-size: 2vw;
+}
+
+#nutrition-intro > p{
+    font-size: 1.5vw;
 }
 
 /* food pyramid section */
@@ -239,38 +244,41 @@ footer > a{
 
 .pyramid-list{
     width: 45vw;
-    height: 70vh;
+    height: 50vw;
     position: relative;
+    margin-left: 1vw;
 }
 
 .pyramid-list > p{
-    margin-top: 8vh;
+    margin-top: 2vw;
 }
 
 .pyramid-items{
-    font-size: medium;
-    margin-bottom: 1vh;
+    font-size: 2vw;
+    margin-top: 2vw;
+    text-align: center;
+    margin-left: 11vw;
 }
 
 .pyramid-list > h4{
     margin-top: 2vh;
-    font-size: x-large;
+    font-size: 3vw;
 }
 
 .pyramid-ul{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 17vw;
-    bottom: 4vh;
+    left: 4vw;
+    bottom: 2vw;
 }
 
 .food-pyramid{
-    height: 70vh;
-    width: 48vw;
+    height: 46vw;
+    width: 46vw;
     position: absolute;
-    right: 0.5vw;
-    top: 2vh;
+    right: 1.5vw;
+    top: 1vw;
 }
 
 #pyramid-explained{
@@ -278,10 +286,10 @@ footer > a{
 }
 
 .meal-prep{
-    height: 300px;
-    width: 400px;
+    height: 27vw;
+    width: 30vw;
     position: absolute;
-    top: 90vh;
+    bottom: 7vw;
     left: 7vw;
     border: 2px solid #1f1f1f;
     border-radius: 12px;
@@ -354,11 +362,10 @@ form:hover{
 
 /* responsivness for 768px */
 
-/* index.html */
+/* nutrition.html */
 
 @media screen and (max-width:768px) {
-
-    
+   
 }
 
 /* responsiveness for 425px */
