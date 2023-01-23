@@ -26,11 +26,15 @@ header  img{
 
 header > h1{
     text-transform: uppercase;
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
 }
 
 header > h3{
-    margin-top: 40px;
+    margin-top: 3vw;
     text-transform: capitalize;
+    font-size: 1.5vw;
 }
 
 span{
@@ -43,7 +47,7 @@ a{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
-    padding: 5px;
+    font-size: 2vw;
 }
 
 a:hover{
@@ -56,10 +60,9 @@ a:hover{
 ul > li{
     float: left;
     list-style: none;
-    font-size: xx-large;
     font-weight: bold;
-    margin-left: 14%;
-    padding-top: 0.8rem;
+    margin-left: 15vw;
+    padding-top: 1.5vw;
 }
 
 nav{
@@ -67,7 +70,7 @@ nav{
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 60px;
+    height: 5vw;
     z-index: 1;
 }
 
@@ -84,11 +87,13 @@ nav{
     margin: 0 auto;
     margin-top: 3%;
     line-height: 130%;
+    font-size: 1.5vw;
 }
 
 #introduction h2{
     text-transform: uppercase;
     color: red;
+    font-size: 2vw;
 }
 
 /* gym-goals section */
@@ -104,6 +109,11 @@ div > h3{
     color: #fff;
     margin: 3%;
     text-transform: uppercase;
+    font-size: 2vw;
+}
+
+div > p{
+    font-size: 1.5vw;
 }
 
 div{
@@ -127,27 +137,35 @@ div:hover{
 .strength-header{
     float: left;
     margin-left: 1vw;
+    margin-top: 4vw;
 }
 
 #gym-goals > img{
-    width: 35%;
+    height: 22vw;
+    width: 35vw;
     margin-left: 6vw;
     border: 3px solid #1f1f1f;
     border-radius: 12px;
 }
 
 #bench-press{
-    height: 300px;
-    width: 300px;
     position: absolute;
     right: 4vw;
-    bottom: 0vh;
+    bottom: 5vh;
+}
+
+#deadlift{
+    margin-top: 3vw;
+}
+
+#pose-img{
+    margin-top: 7vw;
 }
 
 .hypertrophy-header{
     float: right;
-    margin-bottom: 90px;
-    margin-top: 30px;
+    margin-bottom: 9vw;
+    margin-top: 8vw;
     margin-right: 1vw;
 }
 
@@ -317,4 +335,38 @@ form:hover{
     background-color: #fff;
     opacity: 1;
     zoom: 102%;
+}
+
+/* responsiveness for 1024px */
+
+/* index.html */
+
+@media  screen and (max-width:1024px){
+    nav{
+        height: 18.5;
+    }
+
+    .peak-header{
+        
+    }
+
+}
+
+/* responsivness for 768px */
+
+/* index.html */
+
+@media screen and (max-width:768px) {
+
+    
+}
+
+/* responsiveness for 425px */
+
+/* index.html */
+
+@media  screen and (max-width:425px) {
+    ul > li{
+        padding-top: 0;
+    }
 }
