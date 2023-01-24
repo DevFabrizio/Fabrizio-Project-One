@@ -187,7 +187,7 @@ footer{
 
 footer > a{
     color: #1f1f1f;
-    font-size: xx-large;
+    font-size: 2.5vw;
     margin: 20px;
 
 }
@@ -301,33 +301,52 @@ footer > a{
 
 .goals-form{
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 21vw;
+    left: 10vw;
     background-color: #fff;
     opacity: 0.5;
-    padding: 3%;
+    padding: 3vw;
     border: 3px solid red;
     border-radius: 12px;
+    height: 15vw;
+    width: 26vw;
+}
+
+.goals-form > input[type="radio"]{
+    height: 1vw;
+}
+
+.goals-form > label{
+    font-size: 1vw;
 }
 
 .goals-form > input[type="submit"]{
     padding: 3%;
     margin-top: 6%;
+    font-size: 0.9vw;
 }
 
 .goals-form > h3{
-    padding: 5%;
+    padding: 3%;
+    font-size: 2vw;
+    
 }
 
 .info-form{
     position: absolute;
-    top: 50%;
-    right: 15%;
+    top: 21vw;
+    right: 10vw;
     background-color: #fff;
     opacity: 0.5;
     padding: 3%;
     border: 3px solid red;
     border-radius: 12px; 
+    height: 15vw;
+    width: 26vw;
+}
+
+.info-form > label{
+    font-size: 1vw;
 }
 
 .info-form > input[type="submit"]{
@@ -336,7 +355,8 @@ footer > a{
 }
 
 .info-form > input{
-    margin: 1.3vh 1vh;
+    margin: 0.8vw 1vw;
+    font-size: 1vw;
 }
 
 form:hover{
@@ -349,31 +369,63 @@ form:hover{
 
 /* index.html */
 
-@media  screen and (max-width:1024px){
-    nav{
+@media  screen and (min-width:769px){
+    /* nav{
         height: 18.5;
+    } */
+
+    .goals-form{
+        height: 16vw;
+        width: 29vw;
     }
 
-    .peak-header{
-        
+    .info-form{
+        height: 16vw;
+        width: 29vw;
     }
-
 }
 
 /* responsivness for 768px */
 
-/* nutrition.html */
+/* form.html */
 
-@media screen and (max-width:768px) {
-   
+@media screen and (max-width:768px){
+   .goals-form{
+    height: 24vw;
+    width: 33vw;
+   }
+
+   .info-form{
+    height: 24vw;
+    width: 29vw;
+   }
 }
 
 /* responsiveness for 425px */
 
-/* index.html */
-
 @media  screen and (max-width:425px) {
+
+    /* index.html */
+
+    nav{
+        height: 8vw;
+    }
+
     ul > li{
         padding-top: 0;
+    }
+
+    /* form.html */
+
+    .goals-form{
+        height: 31vw;
+        width: 37vw;
+        left: 6vw;
+    }
+
+    .info-form{
+        height: 31vw;
+        width: 32vw;
+        right: 6vw;
     }
 }
