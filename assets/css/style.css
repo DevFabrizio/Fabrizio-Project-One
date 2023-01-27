@@ -568,4 +568,9 @@ form:hover{
     .goals-form > input[type=submit]{
         font-size: 1.8vw;
     }
+
+    footer{
+        height: 30vw;
+        line-height: 29vw;
+    }
 }
