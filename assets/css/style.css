@@ -159,7 +159,7 @@ div:hover{
 #bench-press{
     position: absolute;
     right: 4vw;
-    bottom: 5vh;
+    bottom: 5vw;
 }
 
 #deadlift{
@@ -402,24 +402,110 @@ form:hover{
 
 /* responsivness for 768px */
 
-/* form.html */
 
 @media screen and (max-width:768px){
+
+    
+    /* index.html */
+    
+    div > p{
+        font-size: 2vw;
+    }
+    
+    #gym-goals{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #gym-goals > img{
+        margin-bottom: 3vw;
+    }
+    
+    #gym-goals > #bench-press{
+        position: relative;
+        margin-top: 10vw; 
+        margin-left: 8vw; 
+        align-self: center;
+    }
+    
+    #gym-goals > #pose-img{
+    margin: 0;
+}
+
+#gym-goals > #deadlift{
+    margin-top: 5vw;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.hybrid-header{
+    margin-left: 0;
+    margin-bottom: 6vw;
+   }
+
+   /* nutrition.html */
+
+   .pyramid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+   .pyramid-items {
+       font-size: 3vw;
+       margin-top: 0.7vw;
+       margin-left: 14vw;
+    }
+
+   .pyramid li{
+        padding-top: 0;
+   }
+
+   .food-pyramid, .meal-prep{
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    
+    .meal-prep {
+        position: relative;
+        bottom: 0;
+    left: 0;
+}
+
+#pyramid-explained{
+    margin: 5vw 0 5vw 0;
+    width: 80vw;
+   }
+   
+   .pyramid-list{
+    width: 80vw;
+   }
+
+   .pyramid-ul{
+    left: 16vw;
+   }
+  /* form.html */
+
    .goals-form{
     height: 24vw;
     width: 33vw;
    }
 
    .info-form{
-    height: 24vw;
-    width: 29vw;
+   height: 24vw;
+   width: 29vw;
    }
 }
+
+
+
 
 /* responsiveness for 425px */
 
 @media  screen and (max-width:425px) {
-
+    
     /* index.html */
 
     nav{
@@ -428,6 +514,25 @@ form:hover{
 
     ul > li{
         padding-top: 0;
+    }
+
+    div > p{
+        font-size: 3.5vw;
+    }
+
+    div > h3{
+        font-size: 3vw;
+    }
+
+    #introduction > p{
+        width: 60vw;
+        font-size: 2.5vw;
+    }
+
+    /* nutrition.html */
+
+    .pyramid-list{
+        height: 78vw;
     }
 
     /* form.html */
