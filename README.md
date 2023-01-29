@@ -82,3 +82,12 @@ For obvious reasons a three page website about sport's science is not an exhaust
 [For other images I have used Unsplash](https://unsplash.com/it)
 
 [In order to better understand the property of "display:flex;" I have used Kevin Powell's YouTube channel](https://www.youtube.com/@KevinPowell)
+
+## HTML and CSS Validation
+
+The HTML and CSS files have all been validated with the W3C Validator:
+![index.html](assets/img/validated-index.png)
+![nutrition.html](assets/img/nutrition-validated.png)
+![form.html](assets/img/form-validated.png)
+![style.css](assets/img/style-validated.png)
+
