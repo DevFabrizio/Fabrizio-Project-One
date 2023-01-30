@@ -529,14 +529,30 @@ form:hover{
         height: auto;
         width: auto;
         top: 28vw;
-        left: 33vw;
+        left: 24vw;
     }
 
    .info-form{
         height: auto;
         width: auto;
         top: 65vw;
-        right: 35vw;
+        right: 31vw;
+    }
+
+    .info-form > label{
+        font-size: 2vw;
+    }
+
+    .info-form > input[type="submit"]{
+        font-size: 2vw;
+    }
+
+    .goals-form > label{
+        font-size: 2vw;
+    }
+
+    .goals-form > input[type="submit"]{
+        font-size: 2vw;
     }
 }
     
@@ -580,40 +596,37 @@ form:hover{
     /* form.html */
 
     #form-header{
-        height: 109vw;
+        height: 110vw;
     }
 
     .goals-form{
         height: auto;
         width: auto;
-        left: 20vw;
+        left: 10vw;
     }
 
     .info-form{
         height: auto;
         width: auto;
-        right: 29vw;
-        top: 75vw;
+        right: 24vw;
+        top: 76vw;
     }
 
     .info-form > label {
-        font-size: 1.7vw;
+        font-size: 2.8vw;
     }
 
     .goals-form > label{
-        font-size: 1.8vw;
+        font-size: 2.9vw;
     }
 
-    .goals-form > input[type=radio]{
-        font-size: 2.5vw;
-    }
-
+   
     .info-form > input[type=submit]{
-        font-size: 1.8vw;
+        font-size: 2.8vw;
     }
 
     .goals-form > input[type=submit]{
-        font-size: 1.8vw;
+        font-size: 2.8vw;
     }
 
     footer{
