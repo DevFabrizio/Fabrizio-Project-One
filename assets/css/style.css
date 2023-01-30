@@ -314,14 +314,34 @@ footer > a{
 
 /* form section */
 
+#form-header{
+    background-color: #FFFFFF;
+    background-image: linear-gradient(0deg, #FFFFFF 0%, #515252 33%, #FF0000 66%);
+    height: 100vw;
+    width: 100vw;
+}
+
+#form-h1, #form-h3{
+    position: absolute;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: Kanit, sans-serif;
+}
+
+#form-h1 > span{
+    color: rgb(0, 0, 0);
+}
+
 .goals-form{
     position: absolute;
-    top: 21vw;
+    top: 30vw;
     left: 10vw;
     background-color: #fff;
     opacity: 0.5;
     padding: 3vw;
-    border: 3px solid red;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 12px;
     height: 15vw;
     width: 26vw;
@@ -351,12 +371,12 @@ footer > a{
 
 .info-form{
     position: absolute;
-    top: 21vw;
+    top: 30vw;
     right: 10vw;
     background-color: #fff;
     opacity: 0.5;
     padding: 3%;
-    border: 3px solid red;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 12px; 
     height: 15vw;
     width: 26vw;
@@ -392,12 +412,12 @@ form:hover{
 @media  screen and (min-width:769px){
 
     .goals-form{
-        height: 16vw;
+        height: 18vw;
         width: 29vw;
     }
 
     .info-form{
-        height: 16vw;
+        height: 18vw;
         width: 29vw;
     }
 }
@@ -409,8 +429,21 @@ form:hover{
 
     /* index.html */
     
+    #introduction p{
+        font-size: 2vw;
+        width: 50vw;
+    }
+
+    #introduction > h2{
+        font-size: 3vw;
+    }
+
     div > p{
         font-size: 2vw;
+    }
+
+    div{
+        width: 90%;
     }
     
     #gym-goals{
@@ -421,6 +454,8 @@ form:hover{
     
     #gym-goals > img{
         margin-bottom: 3vw;
+        width: 65vw;
+        height: auto;
     }
     
     #gym-goals > #bench-press{
@@ -491,22 +526,27 @@ form:hover{
     /* form.html */
 
    .goals-form{
-        height: 24vw;
-        width: 33vw;
+        height: auto;
+        width: auto;
+        top: 28vw;
+        left: 33vw;
     }
 
    .info-form{
-        height: 24vw;
-        width: 29vw;
+        height: auto;
+        width: auto;
+        top: 65vw;
+        right: 35vw;
     }
 }
+    
 
 
 
 
-/* responsiveness for 425px */
+/* responsiveness for 320px */
 
-@media  screen and (max-width:425px) {
+@media  screen and (max-width:320px) {
     
     /* index.html */
 
@@ -539,16 +579,21 @@ form:hover{
 
     /* form.html */
 
+    #form-header{
+        height: 109vw;
+    }
+
     .goals-form{
-        height: 31vw;
-        width: 37vw;
-        left: 6vw;
+        height: auto;
+        width: auto;
+        left: 20vw;
     }
 
     .info-form{
-        height: 31vw;
-        width: 32vw;
-        right: 6vw;
+        height: auto;
+        width: auto;
+        right: 29vw;
+        top: 75vw;
     }
 
     .info-form > label {
