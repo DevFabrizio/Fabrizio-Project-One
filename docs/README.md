@@ -1,5 +1,7 @@
 # Fabrizio's Milestone Project 1 
 
+#### [GitHub Pages link](https://devfabrizio.github.io/Fabrizio-Project-One/)
+
 ## Introduction
 
 This is my first website for the Code Institute curriculum. Before starting to plan the project, Code Institute suggested various other ideas to work on. Ultimately I have decided to create something from scratch because I wanted to test my creativity applied to coding and how I would have faced the issues that would have risen along the process. This is my final result.
@@ -108,6 +110,15 @@ The HTML and CSS files have all been validated with the W3C Validator:
 [style.css]()
 
 # Deployement and Updates
+
+## Deployement Steps
+
+I have used the GitHub Pages option for the deployement of this website. In particular I followed these steps:
+1. Open my GitHub repository for this project.
+2. Click on Settings and scroll down until I found the Pages function on the left side bar.
+3. I looked for the Build and Deployement voice and saved after selecting Main and Root.
+4. Headed over to the Actions page from the main navigation bar to monitor the deployement.
+5. Once completed I linked the page URL to this README file.
 
 ## Future Development
 
