@@ -1,5 +1,9 @@
 # Fabrizio's Milestone Project 1 
 
+## Introduction
+
+This is my first website for the Code Institute curriculum. Before starting to plan the project, Code Institute suggested various other ideas to work on. Ultimately I have decided to create something from scratch because I wanted to test my creativity applied to coding and how I would have faced the issues that would have risen along the process. This is my final result.
+
 ### The Strategy Plane
 
 With this first project I wanted to address a topic that I have been researching on my own in the last years. The topic in question is Sport's Science. In particular my goal was to create a three page website that could serve as a blueprint for the users when they faced situation where they had to make a decision regarding their diet or their time in the weight room. The target audience that I wanted to attract was heterogeneous in nature and it encompassed a wide spectrum of age.
@@ -16,21 +20,40 @@ I wanted to place the information within the website to have a logical order the
 
 The representation of the various content has been spread over two pages of information and one of interaction to allow the user to completely focus on one topic at a time. I organized the resistance training and nutrition page similarly to create a sense a familiarity which would allow the user to rely on redundancy of visualization to make the UX not overwhelming. I used a fixed navigation bar on top of the page for a quick accessibility to the whole website and a initial hero image and description as a minamalist but inpactful welcome. In the main section of both pages the content is alternated with descriptive or high quality images that assist in relaying the message. The footer section in the three pages is styled with a thought of semplicity and clarity.
 
+[This is the link to view the wireframe file](assets/img/wireframe-project1-img.png)
+
 ### The Surface Plane
 
 The principal choices that characterize the website style are the image used and the colors. In the resistance training page I used a hero image that would maintain semplicity and minimalism while also showing a somewhat aggressive set of colors that would inspire action. The other three images in the page are strongly related to the "content-box" on their side. I did this with a information-reinforcement in mind. For the Nutrition page I used a hero image that would allow the user to immediately understand the type of environment that the page would provide. All the "content-boxes" have effects which enable the user to focus and center the attention on the respective information displayed. I alternated between rounded and sharp corners between images and containers to facilitate readability and give the pages a look that wasn't too rigid.
-
-
-
-## The User Story
-
-As previously stated this website is being proposed as a quick access mini-guide to a wide variety of people. The information address a well known need for first time gym goers or all those who intend to embark on a specific type of diet journey. The user would land on the first page that is dedicated to training only. Although this might be confusing for someone who is looking for diet related advice, the evident navigation bar makes it very easy to access the following page. The nutrition content is structured in the second page because within the hierarchy of body recomposition priorities training comes first and it is usually the first topic researched by beginners. The second page content is layed out similarly to the first page. This is to make the information readily available and to maintain readability in both pages. Once on the second page the user could also decide to opt to visit the third page. This last interaction would bring him to two forms designed to prompt the user to subscribe and to share their gym or diet goals. 
 
 ## Fonts, Colors and Style Choices
 
 Behind the styling choices there is a very simple reasoning. What I aimed to create was a simple website which would focus more on information and that would cut away most of the unecessary distractions. I chose the headings and paragraphs fonts because they conveyed the message in a modern and readable fashion at different screen sizes. The color palette used is as follows: 
 
 ![this is the palette](assets/img/Project-palette.png)
+
+
+## The User Story
+
+As previously stated this website is being proposed as a quick access mini-guide to a wide variety of people. The information address a well known need for first time gym goers or all those who intend to embark on a specific type of diet journey. As a user I would:
+
+1. Land on the Training page
+* Read the header and the Introduction.
+* Go through the main content of the page (strength, hypertrophy and hybrid approach).
+* Access the website social media through the links in the footer.
+
+2. Move to the Nutrition page
+* Read the Introduction.
+* Focus on the main content divided in the: Food Pyramid and the Pyramid Breakdown section.
+* Interact with the social media links present on the footer.
+
+3. Access the Form page
+* Interact with the first or second form.
+* Submit the information I provided on the forms.
+* Enter any social media page through the links placed at the bottom of the page.
+
+
+# Interactions and Features
 
 ## Features Used
 
@@ -52,6 +75,7 @@ This image shows the introduction section. Placed immediately after the header, 
 
 As a commonality among many website, the social media links are placed, well identified and visible, at the bottom of the page. The reason for this is obviously to take advantage of most common practices shared by most modern layouts and web pages.
 
+# Testing and Technologies
 
 ## Tech Used
 
@@ -77,15 +101,27 @@ The HTML and CSS files have all been validated with the W3C Validator:
 
 [index.html](https://validator.w3.org/nu/#textarea)
 
-[nutrition.html](https://validator.w3.org/nu/#textarea)
+[nutrition.html](https://validator.w3.org/nu/)
 
 [form.html]()
 
 [style.css]()
 
+# Deployement and Updates
+
 ## Future Development
 
-For obvious reasons a three page website about sport's science is not an exhaustive source of information. The implementation for this project will surely have to be made on the content. A further breakdown of the concepts is needed, as well as in-depth look into the single topics that would arise. With the addition of more information I would advice an improvement of the navigation options to allow the user for a much easier search within the website's pages. In light of the recent progress in machine learning and A.I. it would be wise to implement free tools for calorie tracking and customizable templates for training plans. These updates would certainly drive the user to a much higher number of interactions and a longer engagement time on the website.
+For obvious reasons a three page website about sport's science is not an exhaustive source of information. The implementation for this project will surely have to be made on the content. A further breakdown of the concepts is needed, as well as in-depth look into the single topics that would arise. With the addition of more information I would advice an improvement of the navigation options to allow the user for a much easier search within the website's pages. In light of the recent progress in machine learning and A.I. it would be wise to implement free tools for calorie tracking and customizable templates for training plans. These updates would certainly drive the user to a much higher number of interactions and a longer engagement time on the website. On a more practical note it is worthy for any future updates of the website to leave a short and useful list on how to address the code. This way the next developer will have a facilitated path on how to recognize the essentials parts of the code.
+
+1. For any HTML file work
+* The layout of the structure follows the principles of good and validated semantic code.
+* The main content to update is always in the respective "containers" as to make it easier to modify.
+* Any change in the social media links or the header and navigation can be easily made by addressing respectively the footer or the top of every html document.
+
+2. Regarding the CSS file
+* The style sheet applies the rules in order from the index.html page to form.html page
+* The media queries follow the same order and are organized from the biggest screen size to the smallest
+
 
 ## Credit
 
