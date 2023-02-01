@@ -1,30 +1,33 @@
 # Fabrizio's Milestone Project 1 
 
-#### [GitHub Pages link](https://devfabrizio.github.io/Fabrizio-Project-One/)
+#### [GitHub Pages](https://devfabrizio.github.io/Fabrizio-Project-One/)
+#### [GitHub Repository](https://github.com/DevFabrizio/Fabrizio-Project-One)
 
 ## Introduction
 
 This is my first website for the Code Institute curriculum. Before starting to plan the project, Code Institute suggested various other ideas to work on. Ultimately I have decided to create something from scratch because I wanted to test my creativity applied to coding and how I would have faced the issues that would have risen along the process. This is my final result.
 
-### The Strategy Plane
+![The final website on different devices](/assets/img/amIresponsive-img.png)
+
+* ### The Strategy Plane
 
 With this first project I wanted to address a topic that I have been researching on my own in the last years. The topic in question is Sport's Science. In particular my goal was to create a three page website that could serve as a blueprint for the users when they faced situation where they had to make a decision regarding their diet or their time in the weight room. The target audience that I wanted to attract was heterogeneous in nature and it encompassed a wide spectrum of age.
 
-### The Scope Plane
+* ### The Scope Plane
 
 In order to best convey the information within the website I decided to include a simple and visually clear layout and website design. The main features used are a sectioned content divided in two main pages and a third page dedicated to user interaction. 
 
-### The Structure Plane
+* ### The Structure Plane
 
 I wanted to place the information within the website to have a logical order the better suited the message that was on each respective page. To achieve this I used the first page to display the content about resistance training. This prioritization was based on the fact that in a real world application putting the gym first, (in respects to the duality of diet and gym) would yield better results. The second page shows the nutrition related informations, while the third page is reserved to forms.
 
-### The Skeleton Plane
+* ### The Skeleton Plane
 
 The representation of the various content has been spread over two pages of information and one of interaction to allow the user to completely focus on one topic at a time. I organized the resistance training and nutrition page similarly to create a sense a familiarity which would allow the user to rely on redundancy of visualization to make the UX not overwhelming. I used a fixed navigation bar on top of the page for a quick accessibility to the whole website and a initial hero image and description as a minamalist but inpactful welcome. In the main section of both pages the content is alternated with descriptive or high quality images that assist in relaying the message. The footer section in the three pages is styled with a thought of semplicity and clarity.
 
-[This is the link to view the wireframe file](assets/img/wireframe-project1-img.png)
+[Wireframe](/assets/img/wireframe-project1-img.png)
 
-### The Surface Plane
+* ### The Surface Plane
 
 The principal choices that characterize the website style are the image used and the colors. In the resistance training page I used a hero image that would maintain semplicity and minimalism while also showing a somewhat aggressive set of colors that would inspire action. The other three images in the page are strongly related to the "content-box" on their side. I did this with a information-reinforcement in mind. For the Nutrition page I used a hero image that would allow the user to immediately understand the type of environment that the page would provide. All the "content-boxes" have effects which enable the user to focus and center the attention on the respective information displayed. I alternated between rounded and sharp corners between images and containers to facilitate readability and give the pages a look that wasn't too rigid.
 
@@ -32,27 +35,25 @@ The principal choices that characterize the website style are the image used and
 
 Behind the styling choices there is a very simple reasoning. What I aimed to create was a simple website which would focus more on information and that would cut away most of the unecessary distractions. I chose the headings and paragraphs fonts because they conveyed the message in a modern and readable fashion at different screen sizes. The color palette used is as follows: 
 
-![this is the palette](assets/img/Project-palette.png)
+![this is the palette used](/assets/img/Project-palette.png)
 
 
 ## The User Story
 
 As previously stated this website is being proposed as a quick access mini-guide to a wide variety of people. The information address a well known need for first time gym goers or all those who intend to embark on a specific type of diet journey. As a user I would:
 
-1. Land on the Training page
-* Read the header and the Introduction.
-* Go through the main content of the page (strength, hypertrophy and hybrid approach).
-* Access the website social media through the links in the footer.
-
-2. Move to the Nutrition page
-* Read the Introduction.
-* Focus on the main content divided in the: Food Pyramid and the Pyramid Breakdown section.
-* Interact with the social media links present on the footer.
-
-3. Access the Form page
-* Interact with the first or second form.
-* Submit the information I provided on the forms.
-* Enter any social media page through the links placed at the bottom of the page.
+* land on the first page
+* read the intro of the training section
+* search for reliable information through the "strength" and "hypertrophy" sections
+* understand what the best method for both would be on the "hybrid approach" section
+* connect with the social media of the website through the links in the footer
+* move to the second page to learn more about nutrition principles
+* read the introduction paragraph
+* move to the food pyramid and the deconstruction of the pyramid constituents
+* interact with the social media links at the bottom of the page
+* open the the third page to access the form section
+* fill the first form to share my journey and goals 
+* fill the second form to receive the newsletter
 
 
 # Interactions and Features
@@ -62,18 +63,18 @@ As previously stated this website is being proposed as a quick access mini-guide
 I tried to maintain the website in a streamlined look to enhance a direct message and to avoid animations and other interactions that could have distracted the user.
 
 ### Navigation Bar
-![navigation bar](assets/img/nav-bar.png)
+![navigation bar](/assets/img/nav-bar.png)
 
 This navigation bar has been created for immediate use and to remain familiar and of easy access at different screen widths. High contrast and fixed position make this interaction quick and ready at all times.
 
 ### Content Features
-![introduction and border highlight](assets/img/intro-and-border.png)
+![introduction and border highlight](/assets/img/intro-and-border.png)
 
 This image shows the introduction section. Placed immediately after the header, provides the information needed to understand the content of the page. The red border and shadow on the bottom of the image is common for all content containers. It transforms red upon hovering and it is designed to focus the user on the selected element.
 
 
 ### Footer Links
-![social media links](assets/img/social-media-bar.png)
+![social media links](/assets/img/social-media-bar.png)
 
 As a commonality among many website, the social media links are placed, well identified and visible, at the bottom of the page. The reason for this is obviously to take advantage of most common practices shared by most modern layouts and web pages.
 
@@ -101,13 +102,13 @@ During the process for the creation of this website I've had to correct several 
 
 The HTML and CSS files have all been validated with the W3C Validator:
 
-[index.html](https://validator.w3.org/nu/#textarea)
+* [index.html](/assets/img/index-validated.png)
 
-[nutrition.html](https://validator.w3.org/nu/)
+* [nutrition.html](/assets/img/nutrition-validated.png)
 
-[form.html]()
+* [form.html](/assets/img/form-validated.png)
 
-[style.css]()
+* [style.css](/assets/img/style-validated.png)
 
 # Deployement and Updates
 
