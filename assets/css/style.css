@@ -191,7 +191,7 @@ footer{
     background: linear-gradient(#fff, #262626);
     height: 30vh;
     text-align: center;
-    line-height: 29vh;
+    line-height: 36vh;
 }
 
 footer > a{
@@ -529,14 +529,17 @@ form:hover{
         height: auto;
         width: auto;
         top: 28vw;
-        left: 24vw;
+        left: 18vw;
+        right: 18vw;
     }
-
-   .info-form{
+    
+    .info-form{
         height: auto;
         width: auto;
         top: 65vw;
-        right: 31vw;
+        right: 25vw;
+        left: 25vw;
+        margin-top: 6vh;
     }
 
     .info-form > label{
@@ -596,7 +599,7 @@ form:hover{
     /* form.html */
 
     #form-header{
-        height: 110vw;
+        height: 100vw;
     }
 
     .goals-form{
@@ -630,7 +633,7 @@ form:hover{
     }
 
     footer{
-        height: 30vw;
-        line-height: 29vw;
+        height: 39vw;
+        line-height: 56vw;
     }
 }
