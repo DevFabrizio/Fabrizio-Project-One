@@ -605,14 +605,16 @@ form:hover{
     .goals-form{
         height: auto;
         width: auto;
-        left: 10vw;
+        left: 6vw;
+        right: 6vw;
     }
 
     .info-form{
         height: auto;
         width: auto;
-        right: 24vw;
-        top: 76vw;
+        right: 20vw;
+        left: 20vw;
+        top: 68vw;
     }
 
     .info-form > label {
