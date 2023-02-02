@@ -74,6 +74,18 @@ This navigation bar has been created for immediate use and to remain familiar an
 
 This image shows the introduction section. Placed immediately after the header, provides the information needed to understand the content of the page. It is a similar replica to the introduction panel present in the index.html file. Both serve the purpose of easing the trasition from the impactful hero images to the main content of the pages.
 
+* #### Index.html Main Content
+
+![Strength Section](/docs/strength-section.png)
+
+On this section I briefly explained the process through which the body gains new strength. The paragraph has been paired with a image that best represent the usual methodologies for strength training.
+
+![Hypertrophy Section](/docs/hypertrophy.png)
+
+This intermediate section displays best the approach to take if one is after a muscle-gaining journey.
+In this case the image paired represents an aesthetic outcome rather than one aimed at performance improvement.
+
+
 ### Footer Links
 ![social media links](/docs/social-media-bar.png)
 
