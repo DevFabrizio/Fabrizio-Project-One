@@ -112,7 +112,7 @@ The HTML and CSS files have all been validated with the W3C Validator:
 
 # Deployement and Updates
 
-## Deployement Steps
+## Deployment Steps
 
 I have used the GitHub Pages option for the deployement of this website. In particular I followed these steps:
 1. Open my GitHub repository for this project.
