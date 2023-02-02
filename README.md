@@ -70,10 +70,9 @@ I tried to maintain the website in a streamlined look to enhance a direct messag
 This navigation bar has been created for immediate use and to remain familiar and of easy access at different screen widths. High contrast and fixed position make this interaction quick and ready at all times.
 
 ### Content Features
-![introduction and border highlight](/assets/img/intro-and-border.png)
+![introduction and border highlight](/docs/intro.png)
 
-This image shows the introduction section. Placed immediately after the header, provides the information needed to understand the content of the page. The red border and shadow on the bottom of the image is common for all content containers. It transforms red upon hovering and it is designed to focus the user on the selected element.
-
+This image shows the introduction section. Placed immediately after the header, provides the information needed to understand the content of the page. It is a similar replica to the introduction panel present in the index.html file. Both serve the purpose of easing the trasition from the impactful hero images to the main content of the pages.
 
 ### Footer Links
 ![social media links](/assets/img/social-media-bar.png)
