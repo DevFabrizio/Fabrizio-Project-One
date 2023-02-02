@@ -80,6 +80,10 @@ This image shows the introduction section. Placed immediately after the header, 
 
 As a commonality among many website, the social media links are placed, well identified and visible, at the bottom of the page. The reason for this is obviously to take advantage of most common practices shared by most modern layouts and web pages.
 
+### Future Features
+
+For obvious reasons a three page website about sport's science is not an exhaustive source of information. The implementation for this project will surely have to be made on the content. A further breakdown of the concepts is needed, as well as in-depth look into the single topics that would arise. With the addition of more information I would advice an improvement of the navigation options to allow the user for a much easier search within the website's pages. In light of the recent progress in machine learning and A.I. it would be wise to implement free tools for calorie tracking and customizable templates for training plans. These updates would certainly drive the user to a much higher number of interactions and a longer engagement time on the website.
+
 # Testing and Technologies
 
 ## Tech Used
@@ -123,9 +127,11 @@ I have used the GitHub Pages option for the deployement of this website. In part
 4. Headed over to the Actions page from the main navigation bar to monitor the deployement.
 5. Once completed I linked the page URL to this README file.
 
-## Future Development
+## Development
 
-For obvious reasons a three page website about sport's science is not an exhaustive source of information. The implementation for this project will surely have to be made on the content. A further breakdown of the concepts is needed, as well as in-depth look into the single topics that would arise. With the addition of more information I would advice an improvement of the navigation options to allow the user for a much easier search within the website's pages. In light of the recent progress in machine learning and A.I. it would be wise to implement free tools for calorie tracking and customizable templates for training plans. These updates would certainly drive the user to a much higher number of interactions and a longer engagement time on the website. On a more practical note it is worthy for any future updates of the website to leave a short and useful list on how to address the code. This way the next developer will have a facilitated path on how to recognize the essentials parts of the code.
+### Website Maintenance and Updates
+
+On a more practical note it is worthy for any future updates of the website to leave a short and useful list on how to address the code. This way the next developer will have a facilitated path on how to recognize the essentials parts of the code.
 
 1. For any HTML file work
 * The layout of the structure follows the principles of good and validated semantic code.
