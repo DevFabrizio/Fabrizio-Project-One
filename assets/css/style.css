@@ -65,6 +65,10 @@ a:hover{
     transition: 0.2s;
 }
 
+ul{
+    line-height: 2.5vw;
+}
+
 ul > li{
     float: left;
     list-style: none;
@@ -429,6 +433,10 @@ form:hover{
 
     /* index.html */
     
+    ul{
+        line-height: 2.5vw;
+    }
+
     #introduction p{
         font-size: 2vw;
         width: 50vw;
@@ -571,6 +579,10 @@ form:hover{
 
     nav{
         height: 8vw;
+    }
+
+    ul{
+        line-height: 6vw;
     }
 
     ul > li{
