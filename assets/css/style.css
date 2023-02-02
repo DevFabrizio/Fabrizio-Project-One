@@ -406,7 +406,7 @@ footer > a{
 form:hover{
     background-color: #fff;
     opacity: 1;
-    zoom: 102%;
+    box-shadow: 10px 10px 8px rgb(29, 29, 29);
 }
 
 /* responsiveness for 1024px */
