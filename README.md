@@ -7,7 +7,7 @@
 
 This is my first website for the Code Institute curriculum. Before starting to plan the project, Code Institute suggested various other ideas to work on. Ultimately I have decided to create something from scratch because I wanted to test my creativity applied to coding and how I would have faced the issues that would have risen along the process. This is my final result.
 
-![The final website on different devices](/assets/img/amIresponsive-img.png)
+![The final website on different devices](/docs/am-i-responsive.png)
 
 ## UX
 
@@ -27,7 +27,7 @@ I wanted to place the information within the website to have a logical order the
 
 The representation of the various content has been spread over two pages of information and one of interaction to allow the user to completely focus on one topic at a time. I organized the resistance training and nutrition page similarly to create a sense a familiarity which would allow the user to rely on redundancy of visualization to make the UX not overwhelming. I used a fixed navigation bar on top of the page for a quick accessibility to the whole website and a initial hero image and description as a minamalist but inpactful welcome. In the main section of both pages the content is alternated with descriptive or high quality images that assist in relaying the message. The footer section in the three pages is styled with a thought of semplicity and clarity.
 
-[Wireframe](/assets/img/wireframe-project1-img.png)
+[Wireframe](/docs/wireframe-project1.png)
 
 * ### The Surface Plane
 
