@@ -85,6 +85,17 @@ On this section I briefly explained the process through which the body gains new
 This intermediate section displays best the approach to take if one is after a muscle-gaining journey.
 In this case the image paired represents an aesthetic outcome rather than one aimed at performance improvement.
 
+* #### Nutrition.html
+
+![Food Pyramid Section](/docs/food-pyramid.png)
+
+As it is apparent from the picture, in this first section in the nutrition page the content in the paragraph is strongly linked to the image beside it. When it comes to the information delivered in the section, it was paramount to pair it with a picture that represented the content itself in a visual manner as to facilitate the understanding of the concept. 
+
+* #### Form.html
+
+![Call to Action](/docs/forms.png)
+
+This is the only call to action of the website and it encourages the user through a series of changes once the elements are hovered over or interacted with.
 
 ### Footer Links
 ![social media links](/docs/social-media-bar.png)
