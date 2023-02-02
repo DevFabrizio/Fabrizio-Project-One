@@ -37,7 +37,7 @@ The principal choices that characterize the website style are the image used and
 
 Behind the styling choices there is a very simple reasoning. What I aimed to create was a simple website which would focus more on information and that would cut away most of the unecessary distractions. I chose the headings and paragraphs fonts because they conveyed the message in a modern and readable fashion at different screen sizes. The color palette used is as follows: 
 
-![this is the palette used](/assets/img/Project-palette.png)
+![this is the palette used](/docs/project-palette.png)
 
 
 ## The User Story
@@ -65,7 +65,7 @@ As previously stated this website is being proposed as a quick access mini-guide
 I tried to maintain the website in a streamlined look to enhance a direct message and to avoid animations and other interactions that could have distracted the user.
 
 ### Navigation Bar
-![navigation bar](/assets/img/nav-bar.png)
+![navigation bar](/docs/nav-bar.png)
 
 This navigation bar has been created for immediate use and to remain familiar and of easy access at different screen widths. High contrast and fixed position make this interaction quick and ready at all times.
 
@@ -75,7 +75,7 @@ This navigation bar has been created for immediate use and to remain familiar an
 This image shows the introduction section. Placed immediately after the header, provides the information needed to understand the content of the page. It is a similar replica to the introduction panel present in the index.html file. Both serve the purpose of easing the trasition from the impactful hero images to the main content of the pages.
 
 ### Footer Links
-![social media links](/assets/img/social-media-bar.png)
+![social media links](/docs/social-media-bar.png)
 
 As a commonality among many website, the social media links are placed, well identified and visible, at the bottom of the page. The reason for this is obviously to take advantage of most common practices shared by most modern layouts and web pages.
 
@@ -107,13 +107,13 @@ During the process for the creation of this website I've had to correct several 
 
 The HTML and CSS files have all been validated with the W3C Validator:
 
-* [index.html](/assets/img/index-validated.png)
+* [index.html](/docs/index-validated.png)
 
-* [nutrition.html](/assets/img/nutrition-validated.png)
+* [nutrition.html](/docs/nutrition-validated.png)
 
-* [form.html](/assets/img/form-validated.png)
+* [form.html](/docs/form-validated.png)
 
-* [style.css](/assets/img/style-validated.png)
+* [style.css](/docs/style-validated.png)
 
 # Deployement and Updates
 
