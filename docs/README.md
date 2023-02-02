@@ -9,6 +9,8 @@ This is my first website for the Code Institute curriculum. Before starting to p
 
 ![The final website on different devices](/assets/img/amIresponsive-img.png)
 
+## UX
+
 * ### The Strategy Plane
 
 With this first project I wanted to address a topic that I have been researching on my own in the last years. The topic in question is Sport's Science. In particular my goal was to create a three page website that could serve as a blueprint for the users when they faced situation where they had to make a decision regarding their diet or their time in the weight room. The target audience that I wanted to attract was heterogeneous in nature and it encompassed a wide spectrum of age.
@@ -31,7 +33,7 @@ The representation of the various content has been spread over two pages of info
 
 The principal choices that characterize the website style are the image used and the colors. In the resistance training page I used a hero image that would maintain semplicity and minimalism while also showing a somewhat aggressive set of colors that would inspire action. The other three images in the page are strongly related to the "content-box" on their side. I did this with a information-reinforcement in mind. For the Nutrition page I used a hero image that would allow the user to immediately understand the type of environment that the page would provide. All the "content-boxes" have effects which enable the user to focus and center the attention on the respective information displayed. I alternated between rounded and sharp corners between images and containers to facilitate readability and give the pages a look that wasn't too rigid.
 
-## Fonts, Colors and Style Choices
+#### Fonts, Colors and Style Choices
 
 Behind the styling choices there is a very simple reasoning. What I aimed to create was a simple website which would focus more on information and that would cut away most of the unecessary distractions. I chose the headings and paragraphs fonts because they conveyed the message in a modern and readable fashion at different screen sizes. The color palette used is as follows: 
 
