@@ -36,7 +36,7 @@ header > h1{
     text-align: center;
 }
 
-header > h3{
+header > h2{
     font-family: Kanit, sans-serif;
     margin-top: 3vw;
     text-transform: capitalize;
@@ -208,7 +208,7 @@ footer > a{
 
 /* header */
 
-.nutrition-h1, .nutrition-h3{
+.nutrition-h1, .nutrition-h2{
     position: absolute;
     top: 20%; 
     left: 50%;
@@ -325,7 +325,7 @@ footer > a{
     width: 100vw;
 }
 
-#form-h1, #form-h3{
+#form-h1, #form-h2{
     position: absolute;
     top: 20%; 
     left: 50%;
