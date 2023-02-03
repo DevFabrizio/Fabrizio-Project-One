@@ -498,7 +498,7 @@ form:hover{
 
    .pyramid-items {
        font-size: 3vw;
-       margin-top: 0.7vw;
+       margin-top: 1.7vw;
        margin-left: 14vw;
     }
 
@@ -606,6 +606,23 @@ form:hover{
 
     .pyramid-list{
         height: 78vw;
+    }
+
+    #nutrition-intro{
+        width: 43vw;
+        left: 26vw;
+    }
+
+    #nutrition-intro p{
+        font-size: 2.5vw;
+    }
+
+    .pyramid-list h4{
+        margin-top: 1vw;
+    }
+
+    .pyramid-items{
+        margin-top: -1.3vw;
     }
 
     /* form.html */
