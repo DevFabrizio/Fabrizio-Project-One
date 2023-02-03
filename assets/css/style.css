@@ -650,10 +650,17 @@ form:hover{
         font-size: 2.8vw;
     }
 
+    .info-form > input{
+        font-size: 1.7vw;
+    }
+
     .goals-form > label{
         font-size: 2.9vw;
     }
 
+    .goals-form > input[type="radio"] {
+        height: 3vw;
+    }
    
     .info-form > input[type=submit]{
         font-size: 2.8vw;
