@@ -138,6 +138,38 @@ The HTML and CSS files have all been validated with the W3C Validator:
 
 * [style.css](/docs/style-validated.png)
 
+## Lighthouse Report
+
+#### Index.html
+
+##### Desktop
+
+![Lighthouse Report](/docs/lighthouse-index-desktop.png)
+
+##### Mobile
+
+![Lighthouse Report](/docs/lighthouse-index-mobile.png)
+
+#### Nutrition.html
+
+##### Desktop
+
+![Lighthouse Report](/docs/lighthouse-nutrition-desktop.png)
+
+##### Mobile
+
+![Lighthouse Report](/docs/lighthouse-nutrition-mobile.png)
+
+#### Form.html
+
+##### Desktop
+
+![Lighthouse Report](/docs/lighthouse-form-desktop.png)
+
+##### Mobile
+
+![Lighthouse Report](/docs/lighthouse-form-mobile.png)
+
 # Deployement and Updates
 
 ## Deployment Steps
