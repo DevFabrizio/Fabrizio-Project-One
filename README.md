@@ -39,6 +39,14 @@ Behind the styling choices there is a very simple reasoning. What I aimed to cre
 
 ![this is the palette used](/docs/project-palette.png)
 
+## Project Goals
+
+The topic covered in this project is something that is usually misinterpreted. Furthermore the web is stormed everyday with new information about the best training practices and the ultimate diet. The truth is that both training and nutrition should't be based on the latest trends but on sound evidence-based principles. The final goal of this project is to bring to the user an easy access guide to the basic level structure of a beginner's approach to fitness. 
+
+### Target Audience
+
+The information derived from this website are, for all intents and purposes, directed to everyone. When it comes to long term health general activity levels and a balanced diet are paramount. Given by the level of the information in the project, this guide is better suited for beginners although there are no age restraints.
+
 
 ## The User Story
 
